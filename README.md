@@ -16,7 +16,7 @@ If you admire both Spurs' and Warriors' ball movement, Brad Stevens' playbook, o
 1. Clone this repo:
 
   ```bash
-  $ git clone https://github.com/linouk23/NBA-Player-Movements
+  $ git clone https://github.com/krish-bajaj123/nbaanimation
   ```
 
 2. Choose any NBA game from ```data/2016.NBA.Raw.SportVU.Game.Logs``` directory.
@@ -24,7 +24,7 @@ If you admire both Spurs' and Warriors' ball movement, Brad Stevens' playbook, o
 3. Generate an animation for the play by running the following script:
 
   ```bash
-  $ python3 main.py --path=Celtics@Lakers.json --event=140
+  $ python3 main.py --path=0021500491.json --event=2
   ```
 
   ```
