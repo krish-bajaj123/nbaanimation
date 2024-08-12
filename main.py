@@ -17,3 +17,4 @@ game = Game(path_to_json=args.path, event_index=args.event)
 game.read_json()
 
 game.start()
+#fun
