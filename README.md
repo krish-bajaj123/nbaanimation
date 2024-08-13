@@ -1,17 +1,6 @@
-# NBA Player Movements
+# NBA Animation
 
 This is a script for visualization of NBA games from raw SportVU logs.
-
-If you admire both Spurs' and Warriors' ball movement, Brad Stevens' playbook, or just miss KD in OKC you'll find this entertaining.
-
-## Examples
-
-![Spurs](https://github.com/linouk23/NBA-Player-Movements/blob/master/examples/spurs.gif)
-![Warriors](https://github.com/linouk23/NBA-Player-Movements/blob/master/examples/warriors.gif)
-![Celtics](https://github.com/linouk23/NBA-Player-Movements/blob/master/examples/celtics.gif)
-![Durant](https://github.com/linouk23/NBA-Player-Movements/blob/master/examples/durant.gif)
-
-## Usage
 
 1. Clone this repo:
 
