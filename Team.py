@@ -34,7 +34,13 @@ class Team:
         1610612764: ('#002B5C', 'WAS'),
     }
 
-    def __init__(self, id):
-        self.id = id
-        self.color = Team.color_dict[id][0]
-        self.name = Team.color_dict[id][1]
+    def __init__(self, team_id):
+        self.id = team_id
+        self.color, self.name = self.get_team_info(team_id)
+
+    @classmethod
+    def get_team_info(cls, team_id):
+        return cls.color_dict.get(team_id, ('#000000', 'Unknown'))
+
+    def __str__(self):
+        return f"{self.name} (ID: {self.id})"
