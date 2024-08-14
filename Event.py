@@ -1,5 +1,5 @@
 from Constant import Constant
-from Moment import Moment
+from Moment_Info import Moment
 from Team import Team
 import matplotlib.pyplot as plt
 from matplotlib import animation
